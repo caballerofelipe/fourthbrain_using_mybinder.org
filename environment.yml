@@ -1,0 +1,32 @@
+## To use this environment file run the following with anaconda3 or miniconda3 installed:
+# $ conda env create -f environment.yml
+
+## Change or add something?
+# $ conda env update -f environment.yml
+
+## To remove this environment entirely, deactivate it and run:
+# $ conda env remove -n fourthbrain
+
+name: fourthbrain
+channels:
+  - conda-forge
+  - conda-forge/label/jupyterlab_alpha
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - matplotlib
+  - tensorflow=2
+  - tensorboard
+  - jupyter
+  - scikit-learn
+  - seaborn
+  - pydot
+  - graphviz
+  - opencv
+  - pillow
+  - imbalanced-learn
+  - xgboost
+  - yellowbrick
+  - jupyterlab-link-share
